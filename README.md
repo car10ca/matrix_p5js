@@ -44,6 +44,7 @@ You can view the Matrix rain effect in action by visiting the following [GitHub 
 This project was developed as part of a learning experience, with significant inspiration and guidance taken from freely available online resources:
 
 -Emily Xie: [YouTube](https://www.youtube.com/watch?v=S1TQCi9axzg)
+
 -The Coding Train: [YouTube Channel](https://www.youtube.com/user/shiffman)
 
 All credits for the original concept and tutorial materials belong to them.
