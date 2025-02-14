@@ -9,22 +9,22 @@ This project was developed using the p5.js library and showcases a custom implem
 The project includes:
 - A **setup** function that initializes the canvas and generates multiple streams of symbols across the screen.
 - A **draw** loop that continuously updates the animation, creating a cascading effect.
-- **Symbol** and **Stream** classes that define the properties and behavior of individual symbols and streams.
+- **Symbol** and **Stream** classes that define the properties and behaviour of individual symbols and streams.
 
 ## Features
 
 - **Randomized Character Assignment**: Each symbol is randomly assigned a Katakana character, adding variety to the visual effect.
-- **Varying Speed**: Streams move at different speeds, making the animation feel more organic.
+- **Varying Speed**: Streams move at different speeds, making the animation more organic.
 - **Highlight Effect**: The first symbol in each stream is highlighted to mimic the glowing effect seen in the Matrix movies.
-- **Smooth Animation**: The sketch runs smoothly with the use of p5.js's built-in frame updating and a translucent background to simulate fading trails.
+- **Smooth Animation**: The sketch runs smoothly using p5.js's built-in frame updating and a translucent background to simulate fading trails.
 
 ## Code Explanation
 
 ### Sketch.js Overview
--**Symbol Class**: Defines the properties of each symbol, such as position, speed, and the character it displays. Symbols are reassigned a random Katakana character at regular intervals.
--**Stream Class**: Manages a collection of symbols, setting their position and rendering them on the canvas. Streams are generated with varying lengths and speeds.
--**Setup Function**: Initializes the canvas to fill the screen and generates the streams.
--**Draw Function**: Updates the canvas and renders the symbols continuously to create the falling effect.
+- **Symbol Class**: Defines the properties of each symbol, such as position, speed, and the character it displays. Symbols are reassigned to a random Katakana character at regular intervals.
+- **Stream Class**: Manages a collection of symbols, setting their position and rendering them on the canvas. Streams are generated with varying lengths and speeds.
+- **Setup Function**: Initializes the canvas to fill the screen and generates the streams.
+- **Draw Function**: Updates the canvas and renders the symbols continuously to create the falling effect.
 
 
 ## Credits
@@ -44,6 +44,3 @@ While the current implementation is effective, here are a few improvements and e
 3. **Additional Character Sets**: Expand the character set beyond Katakana to include other scripts or even custom symbols.
 4. **Enhanced Visual Effects**: Implement more advanced graphics, such as gradient fills, 3D effects, or particle trails.
 
-## Setup
-Ensure you have a stable internet connection and the p5.js library included in your HTML file.
-Open the index.html file in a web browser to see the Matrix rain effect.
