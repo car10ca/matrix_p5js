@@ -18,19 +18,6 @@ The project includes:
 - **Highlight Effect**: The first symbol in each stream is highlighted to mimic the glowing effect seen in the Matrix movies.
 - **Smooth Animation**: The sketch runs smoothly with the use of p5.js's built-in frame updating and a translucent background to simulate fading trails.
 
-## Live Demo
-
-You can view the Matrix rain effect in action by visiting the following [GitHub Page](#) (replace `#` with your GitHub Page URL after setting it up).
-
-## How to Use
-
-1. **Clone the Repository**: Use the following command to clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/matrix-rain-p5js.git
-
-2. **Open the Project**: Navigate to the project directory and open index.html in your browser.
-3. **Enjoy the Animation**: The digital rain effect will start automatically.
-
 ## Code Explanation
 
 ### Sketch.js Overview
